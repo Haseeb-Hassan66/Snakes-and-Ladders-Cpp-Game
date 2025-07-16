@@ -293,7 +293,7 @@ void DrawBottomMessage(const string& message) {
 }
 
 void SaveGame(const Player& player1, const Player& player2, bool player1Turn, const string& message) {
-    ofstream saveFile("C:\\Users\\User\\source\\repos\\Saanp Seerhi Game\\game_save.txt");
+    ofstream saveFile("E:\\Projects\\C++  Projects\\Snakes-and-Ladders-Cpp-Game\\save\\game_save.txt");
     if (saveFile.is_open()) {
         saveFile << player1.name << endl
             << player1.position << endl
@@ -319,7 +319,7 @@ void StartNewGame(Player& player1, Player& player2, bool& player1Turn, string& g
     gameMessage = "Enter names for new players.";
     enterNamePhase = true;
 
-    ofstream saveFile("C:\\Users\\User\\source\\repos\\Saanp Seerhi Game\\game_save.txt", ios::trunc);
+    ofstream saveFile("E:\\Projects\\C++  Projects\\Snakes-and-Ladders-Cpp-Game\\save\\game_save.txt", ios::trunc);
 
     if (saveFile.is_open()) {
         saveFile.close();
@@ -328,7 +328,7 @@ void StartNewGame(Player& player1, Player& player2, bool& player1Turn, string& g
 
 
 bool LoadGame(Player& player1, Player& player2, bool& player1Turn, string& message) {
-    ifstream loadFile("C:\\Users\\User\\source\\repos\\Saanp Seerhi Game\\game_save.txt");
+    ifstream loadFile("E:\\Projects\\C++  Projects\\Snakes-and-Ladders-Cpp-Game\\save\\game_save.txt");
 
     // Check if the file is open and not empty
     if (loadFile.is_open() && loadFile.peek() != ifstream::traits_type::eof()) {
