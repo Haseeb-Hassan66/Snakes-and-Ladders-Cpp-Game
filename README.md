@@ -23,10 +23,14 @@ Snakes-And-Ladders-CPP/
 │
 ├── src/
 │   └── main.cpp              # Main game file
+│
+├── save/
+│   └── game_save.txt         # Saved game state
 └── README.md
 ```
 
 ---
+
 
 ## ⚙️ Requirements
 
