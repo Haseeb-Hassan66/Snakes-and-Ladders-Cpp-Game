@@ -44,6 +44,23 @@ Snakes-And-Ladders-CPP/
 
 ---
 
+## 💾 Save File
+
+- Game data is saved in:
+- save/game_save.txt
+
+## ⚠️ Important:
+
+- The current code uses a hardcoded file path like:
+E:\\Projects\\C++  Projects\\Snakes-and-Ladders-Cpp-Game\\save\\game_save.txt
+
+- To make the game work on your own system, you must update this path in main.cpp to match your directory. For example:
+ofstream saveFile("save/game_save.txt");
+ifstream loadFile("save/game_save.txt");
+
+- This ensures the game will save/load properly from your local folder and works for any user on any system.
+
+---
 
 ## 💾 Controls
 
