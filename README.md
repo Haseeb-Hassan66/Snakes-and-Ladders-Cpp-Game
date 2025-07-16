@@ -73,18 +73,6 @@ Snakes-And-Ladders-CPP/
 
 ---
 
-## 💡 Save File
-
-Game data is saved in:
-
-```
-save/game_save.txt
-```
-
-You can edit `main.cpp` to change the path if needed.
-
----
-
 
 ## 🙌 Credits
 
