@@ -42,7 +42,7 @@ Snakes-And-Ladders-CPP/
 ## ▶️ How to Run
 
 
-1. **Install Raylib
+1. **Install Raylib**
 2. **Compile**
 3. **Run**
 
